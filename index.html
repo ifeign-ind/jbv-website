@@ -1,219 +1,211 @@
 <!DOCTYPE html>
-
-<html class="scroll-smooth" lang="en"><head>
+<html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Jasper Bridge Ventures | Institutional Hospitality Investment</title>
+<title>Jasper Bridge Ventures — India Real Estate. Institutional Execution.</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;1,6..72,200&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #fef9f1;
-            color: #1d1c17;
-        }
-        .font-serif {
-            font-family: 'Cormorant Garamond', serif;
-        }
-        .signature-rule {
-            height: 1px;
-            background-color: #B8933F;
-            opacity: 0.3;
-        }
-        .gold-gradient-bg {
-            background: linear-gradient(15deg, #785a04 0%, #b8933f 100%);
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-            vertical-align: middle;
-        }
-    </style>
 <script id="tailwind-config">
-      tailwind.config = {
+    tailwind.config = {
         darkMode: "class",
         theme: {
-          extend: {
-            colors: {
-              "surface-tint": "#785a04",
-              "on-primary": "#ffffff",
-              "primary": "#785a04",
-              "on-surface": "#1d1c17",
-              "background": "#fef9f1",
-              "surface-container-highest": "#e7e2da",
-              "primary-container": "#b8933f",
-              "surface-container-low": "#f8f3eb",
-              "surface": "#fef9f1",
-              "outline": "#7f7666",
-            },
-            fontFamily: {
-              "headline": ["Cormorant Garamond", "serif"],
-              "body": ["Inter", "sans-serif"],
-              "label": ["Inter", "sans-serif"]
-            },
-            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
-          },
-        },
-      }
-    </script>
+            extend: {
+                "colors": {
+                    "background": "#F5F0E8",
+                    "surface": "#F5F0E8",
+                    "on-surface": "#1d1c17",
+                    "on-surface-variant": "#444748",
+                    "secondary": "#B8933F",
+                    "outline": "#747878",
+                    "surface-container-low": "#f8f3eb"
+                },
+                "borderRadius": { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" },
+                "fontFamily": {
+                    "body-lg": ["Inter"], "label-sm": ["Inter"], "nav-link": ["Newsreader"],
+                    "footer-note": ["Inter"], "display-lg": ["Newsreader"],
+                    "headline-lg": ["Newsreader"], "body-md": ["Inter"], "headline-md": ["Newsreader"]
+                },
+                "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.15em", "fontWeight": "500"}],
+                    "nav-link": ["11px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "footer-note": ["11px", {"lineHeight": "1.5", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "300"}],
+                    "headline-lg": ["42px", {"lineHeight": "1.2", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "headline-md": ["28px", {"lineHeight": "1.3", "letterSpacing": "0em", "fontWeight": "400"}]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    body { background-color: #F5F0E8; color: #1C1C1C; }
+    .rule-gold { border-bottom: 1px solid #B8933F; }
+    .rule-charcoal { border-bottom: 1px solid #1C1C1C; }
+    .vertical-rule-gold { border-right: 1px solid #B8933F; }
+    .small-caps { font-variant: small-caps; }
+</style>
 </head>
-<body class="bg-surface text-on-surface antialiased" style="background-color: #F5F0E8;">
+<body class="font-body-md bg-background text-on-surface">
+
 <!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-[#fef9f1]/85 backdrop-blur-md border-b border-[#B8933F]/20 flex justify-between items-center px-8 py-6 max-w-full" style="background-color: #F5F0E8; opacity: 0.85; backdrop-filter: blur(12px);">
-<div class="text-xl font-serif font-bold text-[#1d1c17] uppercase tracking-widest">
-            Jasper Bridge Ventures
+<nav class="sticky top-0 w-full z-50 bg-[#F5F0E8] border-b border-[#B8933F]">
+    <div class="flex justify-between items-center max-w-[1200px] mx-auto px-16 py-8">
+        <div class="font-serif uppercase tracking-[0.2em] text-lg text-[#1C1C1C] small-caps">Jasper Bridge Ventures</div>
+        <div class="hidden md:flex space-x-12">
+            <a class="font-body-lg text-[11px] uppercase tracking-widest text-[#1C1C1C] border-b border-[#1C1C1C] pb-1 transition-all duration-300" href="index.html">Home</a>
+            <a class="font-body-lg text-[11px] uppercase tracking-widest text-stone-500 pb-1 hover:text-[#1C1C1C] transition-all duration-300" href="hospitality.html">Hospitality</a>
+            <a class="font-body-lg text-[11px] uppercase tracking-widest text-stone-500 pb-1 hover:text-[#1C1C1C] transition-all duration-300" href="team.html">Team</a>
+            <a class="font-body-lg text-[11px] uppercase tracking-widest text-stone-500 pb-1 hover:text-[#1C1C1C] transition-all duration-300" href="contact.html">Contact</a>
         </div>
-<div class="hidden md:flex items-center space-x-12"><a class="font-serif italic text-lg tracking-tight text-[#1d1c17] opacity-70 hover:opacity-100 hover:text-[#B8933F] transition-all duration-300" href="#approach">About</a><a class="font-serif italic text-lg tracking-tight text-[#1d1c17] opacity-70 hover:opacity-100 hover:text-[#B8933F] transition-all duration-300" href="#contact">Contact</a></div>
-<div class="md:hidden">
-<span class="material-symbols-outlined text-[#B8933F]">menu</span>
-</div>
+    </div>
 </nav>
-<main>
-<!-- Hero Section -->
-<section class="min-h-screen flex flex-col justify-center px-8 md:px-24 pt-20 relative overflow-hidden">
-<div class="max-w-5xl">
-<h1 class="text-6xl md:text-8xl font-serif font-light leading-tight mb-8 text-on-surface">
-                    Transforming India's Hospitality Assets Into <span class="italic text-primary-container">Institutional Platforms</span>
-</h1>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
-<div class="md:col-span-7">
-<p class="text-xl md:text-2xl font-body font-light leading-relaxed text-on-surface opacity-80 mb-12">
-                            Acquiring and repositioning hospitality assets across the Indian subcontinent through a clinical focus on operational excellence and capital efficiency.
-                        </p>
-<a class="inline-block px-10 py-4 border border-primary-container text-primary-container uppercase tracking-[0.2em] text-xs font-semibold hover:bg-primary-container hover:text-white transition-all duration-500" href="#contact">
-                            Get in Touch
-                        </a>
-</div>
-</div>
-</div>
-<!-- Aesthetic Gold Line Anchor -->
-<div class="absolute bottom-12 left-8 md:left-24 right-8 md:right-24 h-[1px] bg-primary-container/30"></div>
-</section>
-<!-- Our Approach -->
-<section class="py-32 px-8 md:px-24 bg-surface-container-low" id="approach" style="background-color: #F5F0E8;">
-<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16">
-<div class="md:col-span-4">
-<span class="text-primary-container uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">01 — Philosophy</span>
-<h2 class="text-4xl font-serif italic mb-8">The Approach</h2>
-</div>
-<div class="md:col-span-8 space-y-12">
-<p class="text-2xl font-serif leading-relaxed text-on-surface">
-                        We identify substantial addressable market gaps within the fragmented Indian hospitality landscape. Our conviction is rooted in the unprecedented growth of domestic consumption and the structural shift toward branded accommodation.
-                    </p>
-<p class="text-lg font-body font-light leading-loose text-on-surface opacity-80">
-                        Jasper Bridge Ventures operates with a specialist focus, eschewing the generalized approach of traditional private equity. We bring an operator mindset to every acquisition, ensuring that value is created through fundamental performance improvements rather than mere financial engineering. Our conviction in the Indian market is supported by a disciplined framework of asset selection and execution.
-                    </p>
-<div class="signature-rule w-full"></div>
-</div>
-</div>
-</section>
-<!-- Platform Structure -->
-<section class="py-32 px-8 md:px-24 bg-surface" style="background-color: #F5F0E8;">
-<div class="max-w-7xl mx-auto">
-<span class="text-primary-container uppercase tracking-[0.3em] text-[10px] font-bold mb-12 block text-center">02 — Architecture</span>
-<h2 class="text-5xl font-serif text-center mb-24">Platform Structure</h2>
-<div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-0">
-<div class="p-12 md:p-20">
-<h3 class="text-primary-container uppercase tracking-[0.2em] text-xs font-bold mb-6">PropCo</h3>
-<h4 class="text-3xl font-serif mb-8">Ownership &amp; Yield</h4>
-<p class="text-lg font-body font-light leading-relaxed opacity-80">
-                            The Real Estate Investment arm focused on the long-term appreciation and structural integrity of the physical asset. We maintain a rigorous standard for site selection, ensuring sustainable yields through high-barrier-to-entry locations.
-                        </p>
-</div><div class="hidden md:block w-px bg-[#B8933F] opacity-30 my-20"></div>
-<div class="p-12 md:p-20">
-<h3 class="text-primary-container uppercase tracking-[0.2em] text-xs font-bold mb-6">OpCo</h3>
-<h4 class="text-3xl font-serif mb-8">Management &amp; Performance</h4>
-<p class="text-lg font-body font-light leading-relaxed opacity-80">
-                            Our proprietary operating platform designed to maximize RevPAR and optimize GOP margins. We leverage advanced data analytics and institutional management protocols to drive top-line growth and operational efficiency.
-                        </p>
-</div>
-</div>
-</div>
-</section>
-<!-- Investment Strategy -->
-<section class="py-32 px-8 md:px-24" id="strategy" style="background-color: #F5F0E8;">
-<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16">
-<div class="md:col-span-5">
-<span class="text-primary-container uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">03 — Strategy</span>
-<h2 class="text-5xl font-serif italic mb-12">Capital Deployment</h2>
-<p class="text-lg font-body font-light leading-relaxed mb-8">
-                        Our current mandate focuses on the acquisition of underperforming or distressed assets that present significant repositioning potential.
-                    </p>
-<div class="space-y-6">
-<div class="flex items-center gap-4">
-<span class="text-3xl font-serif text-primary-container">1,800</span>
-<span class="text-xs uppercase tracking-widest opacity-60">Target Keys</span>
-</div>
-<div class="flex items-center gap-4">
-<span class="text-3xl font-serif text-primary-container">12</span>
-<span class="text-xs uppercase tracking-widest opacity-60">Hospitality Assets</span>
-</div>
-<div class="flex items-center gap-4">
-<span class="text-3xl font-serif text-primary-container">07</span>
-<span class="text-xs uppercase tracking-widest opacity-60">Year Horizon</span>
-</div>
-</div>
-</div>
-<div class="md:col-span-7">
-<div class="p-12 space-y-12">
-<div>
-<h4 class="font-serif text-2xl mb-4">Core Markets</h4>
-<p class="font-body font-light opacity-80 leading-relaxed">
-                                Strategic allocation within high-growth corridors including the Mumbai Metropolitan Region (MMR), National Capital Region (NCR), Bengaluru, and the leisure destination of Goa.
-                            </p>
-</div>
-<div class="signature-rule"></div>
-<div>
-<h4 class="font-serif text-2xl mb-4">Tier 2 Expansion</h4>
-<p class="font-body font-light opacity-80 leading-relaxed">
-                                Selective exposure to high-potential Tier 2 cities where institutional-grade supply remains scarce despite significant commercial and industrial growth.
-                            </p>
-</div>
-<div class="signature-rule"></div>
-<div>
-<h4 class="font-serif text-2xl mb-4">Asset Selection</h4>
-<p class="font-body font-light opacity-80 leading-relaxed">
-                                Focus on brownfield projects and operational hotels requiring capital infusion and institutional management to unlock intrinsic value.
-                            </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Who We Work With -->
-<section class="py-32 px-8 md:px-24 bg-surface" style="background-color: #F5F0E8;">
-<div class="max-w-5xl mx-auto text-center"><span class="text-primary-container uppercase tracking-[0.3em] text-[10px] font-bold mb-6 block">Partnerships</span><h2 class="text-4xl font-serif mb-16">Ecosystem of Value</h2><div class="grid grid-cols-1 md:grid-cols-5 items-start text-left"><div class="md:col-span-1"><h5 class="font-serif text-xl mb-4">Institutional Investors</h5><p class="text-sm font-body font-light opacity-70 leading-relaxed">Family offices and institutional funds seeking risk-adjusted exposure to Indian hospitality real estate.</p></div><div class="hidden md:flex justify-center"><div class="w-px bg-[#B8933F] h-32"></div></div><div class="md:col-span-1"><h5 class="font-serif text-xl mb-4">Asset Owners</h5><p class="text-sm font-body font-light opacity-70 leading-relaxed">Hotel owners and developers looking for strategic exit opportunities or professional platform integration.</p></div><div class="hidden md:flex justify-center"><div class="w-px bg-[#B8933F] h-32"></div></div><div class="md:col-span-1"><h5 class="font-serif text-xl mb-4">Intermediaries</h5><p class="text-sm font-body font-light opacity-70 leading-relaxed">Investment banks and real estate advisors managing specialized hospitality transactions.</p></div></div></div>
-</section>
-<!-- Contact Section -->
-<section class="py-32 px-8 md:px-24 text-on-surface" id="contact" style="background-color: #F5F0E8;">
-<div class="max-w-7xl mx-auto grid grid-cols-1 gap-24 items-center">
-<div class="max-w-3xl mx-auto">
-<h2 class="text-6xl font-serif italic mb-12">Inquiries</h2>
-<p class="text-xl font-body font-light opacity-80 mb-16 leading-loose">
-                        Jasper Bridge Ventures welcomes dialogue with sophisticated market participants and institutional partners regarding prospective investments and collaborations.
-                    </p>
-<div class="space-y-8">
-<div>
-<span class="text-primary-container uppercase tracking-widest text-[10px] block mb-2">Direct Correspondence</span>
-<a class="text-2xl font-serif border-b border-primary-container pb-1 hover:text-primary-container transition-colors duration-300" href="mailto:shishir.s@jasper-bridge.com">shishir.s@jasper-bridge.com</a>
-</div>
-<div>
-<span class="text-primary-container uppercase tracking-widest text-[10px] block mb-2">Regional Headquarters</span>
-<address class="not-italic text-2xl font-serif">Mumbai, India</address>
-</div>
-</div>
-</div>
-</div>
-</section>
+
+<main class="max-w-[1200px] mx-auto px-16">
+
+    <!-- HERO -->
+    <section class="h-[819px] flex flex-col justify-center items-start space-y-8">
+        <h1 class="font-display-lg text-display-lg max-w-3xl">India Real Estate. Institutional Execution.</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-[580px]">
+            Jasper Bridge Ventures is an institutional real estate asset management platform, providing global investors with a credible, execution-led operating partner across the full investment lifecycle in India.
+        </p>
+        <a class="mt-8 px-8 py-4 border border-[#1C1C1C] font-label-sm uppercase tracking-widest hover:bg-[#1C1C1C] hover:text-white transition-all duration-500" href="contact.html">
+            Get in Touch
+        </a>
+    </section>
+
+    <!-- Divider -->
+    <div class="rule-gold w-full mb-[120px]"></div>
+
+    <!-- THE PLATFORM -->
+    <section class="mb-[120px] space-y-12">
+        <div class="space-y-4">
+            <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">The Platform</span>
+            <h2 class="font-headline-lg text-headline-lg max-w-2xl">A Full-Lifecycle Operating Partner for Global Real Estate Capital</h2>
+        </div>
+        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            We provide end-to-end management, bridging the gap between global institutional capital and local market complexity through rigorous discipline and tactical execution.
+        </p>
+        <div class="grid grid-cols-1 space-y-0">
+            <div class="py-8 rule-gold flex justify-between items-center group cursor-default"><span class="font-headline-md">Originate — direct and relationship-led sourcing across promoter exits, distressed assets, and sub-scale platforms</span><span class="font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">01</span></div>
+            <div class="py-8 rule-gold flex justify-between items-center group cursor-default"><span class="font-headline-md">Execute — underwriting, diligence, structuring, and transaction closing</span><span class="font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">02</span></div>
+            <div class="py-8 rule-gold flex justify-between items-center group cursor-default"><span class="font-headline-md">Create Value — active asset management, repositioning, and NOI optimisation</span><span class="font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">03</span></div>
+            <div class="py-8 rule-gold flex justify-between items-center group cursor-default"><span class="font-headline-md">Monetise — hold-sell analysis, recapitalisation, and exit execution</span><span class="font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">04</span></div>
+        </div>
+    </section>
+
+    <!-- ASSET CLASSES -->
+    <section class="mb-[120px] space-y-12">
+        <div class="space-y-4">
+            <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">Sectors</span>
+            <h2 class="font-headline-lg text-headline-lg">Across the Indian Real Estate Spectrum</h2>
+        </div>
+        <div class="space-y-0">
+            <div class="py-6 rule-gold font-body-lg flex justify-between"><span>Offices</span><span class="text-on-surface-variant">Core &amp; Value-Add</span></div>
+            <div class="py-6 rule-gold font-body-lg flex justify-between"><span>Hospitality</span><span>Lifestyle &amp; Business</span></div>
+            <div class="py-6 rule-gold font-body-lg flex justify-between"><span>Retail</span><span>Experience Centers</span></div>
+            <div class="py-6 rule-gold font-body-lg flex justify-between"><span>Warehousing &amp; Industrial</span><span>Grade-A Logistics</span></div>
+            <div class="py-6 rule-gold font-body-lg flex justify-between"><span>Data Centres</span><span>Enterprise Infrastructure</span></div>
+        </div>
+        <p class="font-body-md text-on-surface-variant max-w-xl italic pt-4">
+            Our sector-specialist approach ensures specialized underwriting and operational excellence tailored to each asset's unique lifecycle requirements.
+        </p>
+    </section>
+
+    <!-- OUR EDGE -->
+    <section class="mb-[120px] space-y-12">
+        <div class="space-y-4">
+            <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">Our Edge</span>
+            <h2 class="font-headline-lg text-headline-lg">Institutional Discipline. On-Ground Execution.</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-b border-[#B8933F]">
+            <div class="p-12 md:vertical-rule-gold space-y-6">
+                <h3 class="font-headline-md">Investment Management</h3>
+                <p class="font-body-md text-on-surface-variant">Sophisticated structuring, risk mitigation frameworks, and fiduciary excellence aligned with the standards of global sovereign wealth funds and private equity.</p>
+            </div>
+            <div class="p-12 space-y-6">
+                <h3 class="font-headline-md">Asset Management</h3>
+                <p class="font-body-md text-on-surface-variant">Active operational oversight, development management, and lease optimization to drive alpha at the asset level through technical precision.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO WE WORK WITH -->
+    <section class="mb-[120px] space-y-12">
+        <div class="space-y-4">
+            <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">Partners</span>
+            <h2 class="font-headline-lg text-headline-lg">Built for Institutional Capital</h2>
+        </div>
+        <div class="space-y-0">
+            <div class="py-10 rule-gold grid grid-cols-12 gap-8 items-center">
+                <div class="col-span-1 font-nav-link text-lg">01</div>
+                <div class="col-span-11 font-body-lg">Global Pension Funds &amp; Sovereign Wealth</div>
+            </div>
+            <div class="py-10 rule-gold grid grid-cols-12 gap-8 items-center">
+                <div class="col-span-1 font-nav-link text-lg">02</div>
+                <div class="col-span-11 font-body-lg">Private Equity Real Estate (PERE) Funds</div>
+            </div>
+            <div class="py-10 rule-gold grid grid-cols-12 gap-8 items-center">
+                <div class="col-span-1 font-nav-link text-lg">03</div>
+                <div class="col-span-11 font-body-lg">Family Offices &amp; Ultra-High-Net-Worth Allocators</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOSPITALITY PLATFORM TEASER -->
+    <section class="mb-[120px] p-16 bg-surface-container-low border border-[#B8933F] py-16">
+        <div class="max-w-2xl space-y-8">
+            <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">Flagship Vertical</span>
+            <h2 class="font-headline-lg text-headline-lg">JBV Hotels Platform</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Our dedicated hospitality vertical specializes in the acquisition and turnaround of under-performing upscale hotel assets across India's Tier 1 business and leisure destinations.
+            </p>
+            <a class="inline-block font-label-sm text-secondary uppercase tracking-widest border-b border-transparent hover:border-secondary transition-all pb-1" href="hospitality.html">
+                Explore the Platform →
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="mb-[120px] pt-16 rule-gold pb-16" id="contact">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div class="space-y-8">
+                <div class="space-y-4">
+                    <span class="font-label-sm text-secondary uppercase tracking-[0.2em] small-caps">Get in Touch</span>
+                    <h2 class="font-display-lg text-4xl">Let's Talk</h2>
+                </div>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-sm">
+                    Discuss new opportunities, joint ventures, or institutional mandates with our senior leadership team.
+                </p>
+            </div>
+            <div class="flex flex-col justify-end space-y-12">
+                <div class="space-y-2">
+                    <span class="font-label-sm text-stone-500 uppercase tracking-widest">Email</span>
+                    <a class="block font-headline-lg text-secondary hover:opacity-80 transition-opacity" href="mailto:shishir.s@jasper-bridge.com">shishir.s@jasper-bridge.com</a>
+                </div>
+                <div class="space-y-2">
+                    <span class="font-label-sm text-stone-500 uppercase tracking-widest">Location</span>
+                    <p class="font-headline-md">Mumbai, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
+
 <!-- Footer -->
-<footer class="w-full border-t border-[#B8933F] bg-[#fef9f1] flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 flex-row" style="background-color: #F5F0E8;">
-<div class="text-xs uppercase tracking-[0.2em] text-[#1d1c17]">
-    Jasper Bridge Ventures © 2025
-</div>
-<div class="text-xs uppercase tracking-[0.2em] text-[#1d1c17] opacity-50">
-    All rights reserved.
-</div>
+<footer class="w-full bg-[#F5F0E8] border-t border-[#B8933F]">
+    <div class="flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto px-16 py-12 gap-8">
+        <div class="font-footer-note text-[10px] uppercase tracking-widest text-stone-500">Jasper Bridge Ventures © 2026</div>
+        <div class="flex gap-8">
+            <a class="font-footer-note text-[10px] uppercase tracking-widest text-stone-400 hover:text-stone-900 transition-colors" href="#">Privacy Policy</a>
+            <a class="font-footer-note text-[10px] uppercase tracking-widest text-stone-400 hover:text-stone-900 transition-colors" href="#">Terms of Service</a>
+            <a class="font-footer-note text-[10px] uppercase tracking-widest text-stone-400 hover:text-stone-900 transition-colors" href="#">Regulatory Disclosure</a>
+        </div>
+        <span class="font-footer-note text-[10px] uppercase tracking-widest text-stone-500">All rights reserved.</span>
+    </div>
 </footer>
+
 </body></html>
